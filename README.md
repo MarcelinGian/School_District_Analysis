@@ -13,10 +13,17 @@
   - This updated data makes Thomas high school one top performing schools in the district based on percentage of studenst passing.
 - How does replacing the ninth-grade scores affect the following:
   - Math and reading scores by grade
-    - There's no change to the math and reading scores by grade when 9th grade scores are zeroed out because scores by grade are grade specific.
+    - There is no change in the Math & Reading scores by grade DataFrames when 9th grade scores are zeroed out, other than that 'NAN' value
   - Scores by school spending
+    - For the spending range bin containing Thomas HS, Average Math score decreases slightly while Average Reading increases slightly. % Passing Math, Reading, & Overall all decrease slightly.
   - Scores by school size
+    - For the school size bin containing Thomas HS, % Overall Passing decreases from 90.62% to 90.56%
   - Scores by school type
+    - For the charter school-type bin that contains Thomas HS, there is no change in numerical values when rounded down to a tenth decimal place.
 
 ### Summary:
-##### Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs. 
+##### Four changes can be observed in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+- A substantial increase in Thomas High School's percent passing for Math, Reading and Overall passing can be observed in the School Summary DataFrame.
+- For the spending range bin containing Thomas HS, Average Math score decreases slightly while Average Reading increases slightly. 
+- For the spending range bin containing Thomas HS, % Passing Math, Reading, & Overall all decrease slightly.
+- For the school size bin containing Thomas HS, % Overall Passing decreases from 90.62% to 90.56%
